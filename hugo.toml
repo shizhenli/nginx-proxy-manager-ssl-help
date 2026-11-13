@@ -1,0 +1,11 @@
+baseURL = "https://nginx-proxy-manager-ssl-help.pages.dev/"
+languageCode = "en-us"
+title = "Nginx Proxy Manager HTTPS Help"
+enableRobotsTXT = true
+[params]
+description = "Fix Nginx Proxy Manager host, certificate, and redirect problems for one service."
+category = "HomeLab"
+source = "nginx-proxy-manager-ssl-help"
+email = "hello@handytasklab.com"
+[markup.goldmark.renderer]
+unsafe = true
