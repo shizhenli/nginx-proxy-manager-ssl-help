@@ -2,7 +2,9 @@ baseURL = "https://nginx-proxy-manager-ssl-help.pages.dev/"
 languageCode = "en-us"
 title = "Nginx Proxy Manager HTTPS Help"
 enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
 [params]
+template_version = "v1.1.0"
 description = "Fix Nginx Proxy Manager host, certificate, and redirect problems for one service."
 category = "HomeLab"
 source = "nginx-proxy-manager-ssl-help"
