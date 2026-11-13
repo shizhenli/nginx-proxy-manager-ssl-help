@@ -1,7 +1,7 @@
 baseURL = "https://nginx-proxy-manager-ssl-help.pages.dev/"
 languageCode = "en-us"
 title = "Nginx Proxy Manager SSL Help"
-enableRobotsTXT = true
+enableRobotsTXT = false
 disableKinds = ["taxonomy", "term"]
 [params]
 source = "nginx-proxy-manager-ssl-help"
