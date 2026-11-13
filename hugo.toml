@@ -1,13 +1,33 @@
 baseURL = "https://nginx-proxy-manager-ssl-help.pages.dev/"
 languageCode = "en-us"
-title = "Nginx Proxy Manager HTTPS Help"
+title = "Nginx Proxy Manager SSL Help"
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 [params]
-template_version = "v1.1.0"
-description = "Fix Nginx Proxy Manager host, certificate, and redirect problems for one service."
-category = "HomeLab"
 source = "nginx-proxy-manager-ssl-help"
+description = "Remote help for Nginx Proxy Manager 502 errors, upstream reachability, DNS, and HTTPS verification."
 email = "hello@handytasklab.com"
+fallback_email_subject = "Nginx Proxy Manager SSL help"
+fallback_email_fields = ["Hostname and upstream service", "502 or certificate error", "DNS record state", "Recent proxy changes"]
+og_image = "images/social.jpg"
+footer_line = "Remote help for one device at a time."
+latest_kicker = "FROM THE BLOG"
+latest_title = "Nginx Proxy Manager SSL Help Guides"
+theme_bg = "#18252E"
+theme_surface = "#EFF0F0"
+theme_card = "#FFFFFF"
+theme_ink = "#182018"
+theme_muted = "#5D655F"
+theme_accent = "#65D8C1"
+theme_accent_ink = "#151515"
+theme_deep = "#131D24"
+theme_deep_ink = "#FFFFFF"
+theme_header_ink = "#FFFFFF"
+theme_line = "#CDCFCD"
+theme_link = "#77DDC8"
+theme_scrim = "rgba(8,12,16,0.86)"
+theme_light = false
+hero_desktop_hd_width = 1920
+hero_mobile_hd_width = 768
 [markup.goldmark.renderer]
 unsafe = true
